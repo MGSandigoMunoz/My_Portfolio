@@ -1,0 +1,12 @@
+:root {
+    /*Colors*/
+    --color-text: #070F2B;
+    --color-bg: #FFFDDE;
+    --color-primary:#D9D7F1;
+    --color-secondary: #FFCBCB;
+    --color-tertiary: #E7FBBE;
+
+    /*Fonts*/
+    --font-nunito: 'Nunito Variable', sans-serif;;
+    --font-caveat: 'Caveat Variable', cursive;
+}
