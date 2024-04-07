@@ -1,27 +1,41 @@
-// import React, {useState} from "react";
-// import GrullaLogo from "../../../assets/Grulla_logo"
-import {getImageUrl} from "../../utils"
-import styles from "./navbar.module.css"
-
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { getImageUrl } from "../../utils";
+import styles from "./navbar.module.css";
 
 export const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">Portfolio</a>
       <div className={styles.menu}>
-        <img className={styles.menuBtn} src={getImageUrl("Grulla_melon.gif")}/>
-        <ul className={styles.menuItems}>
+
+
+        <img
+          className={styles.menuBtn}
+          src={
+            menuOpen 
+            ? getImageUrl("Nav/closeIcon.jpg") 
+            : getImageUrl("Nav/menuIcon.png") }
+          alt="menu-button"
+          onClick={()=> setMenuOpen(!menuOpen)}
+        />
+        <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+        onClick={()=> setMenuOpen(false)}
+        >
           <li>
-            <a href="#aboutMe">About me</a>
+            <Link to="/">Inicio</Link>
+          </li>
+          <li >
+            <Link to="/aboutMe">Acerca de mi</Link>
           </li>
           <li>
-            <a href="#Projects">Projects</a>
+            <Link to="/cv">CV</Link>
           </li>
           <li>
-            <a href="#CV">CV</a>
+            <Link to="/projects">Proyectos</Link>
           </li>
           <li>
-            <a href="#Contac">Contact</a>
+            <Link to="contact">Contacto</Link>
           </li>
         </ul>
       </div>

@@ -1,0 +1,34 @@
+[
+    {
+        "title":"Pets Vital",
+        "imageSrc":"",
+        "description":"En este proyecto me desempeñé principalmente como backend",
+        "skills":["Node JS"],
+        "demo":"link del deploy",
+        "source":"link de github"
+    },
+    {
+        "title":"LinkIT",
+        "imageSrc":"",
+        "description":"En este proyecto me desempeñé principalmente como backend",
+        "skills":["Node JS","MongoDB","Mongoose",""],
+        "demo":"link del deploy",
+        "source":"link de github"
+    },
+    {
+        "title":"Countries",
+        "imageSrc":"",
+        "description":"En este proyecto me desempeñé principalmente como backend",
+        "skills":["Node JS"],
+        "demo":"link del deploy",
+        "source":"link de github"
+    },
+    {
+        "title":"Rick & Morty",
+        "imageSrc":"",
+        "description":"En este proyecto me desempeñé principalmente como backend",
+        "skills":["Node JS"],
+        "demo":"link del deploy",
+        "source":"link de github"
+    }
+]
