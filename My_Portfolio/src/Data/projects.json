@@ -1,11 +1,10 @@
 [
     {
-        "title":"Pets Vital",
+        "title":"PetsVital",
         "imageSrc":"Projects/petsVital.png",
-        "description":"En este proyecto me desempeñé como fullstack",
-        "skills":["TypeScript","NodeJS","NestJS","React"],
-        "demo":"link del deploy",
-        "source":"link de github"
+        "description":"This project consists of an application that allows users to manage the care of their pets. Currently my team and I are working on mobile and web design planning and we finished the low-fidelity and high-fidelity prototypes. I nivite to know more about this project in my linkedIN, where we upload project updates every week.  ",
+        "skills":["Figma", "Excalidraw"]
+       
     },
     {
         "title":"LinkIT",
