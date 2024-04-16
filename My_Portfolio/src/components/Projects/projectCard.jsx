@@ -18,13 +18,14 @@ export const ProjectCard = ({
         {
           // eslint-disable-next-line react/prop-types
           skills.map((skill, id) => {
-            <li key={id} className={styles.skill}>{skill}</li>;
+            return(
+            <li key={id} className={styles.skill}>{skill}</li>)
           })
         }
       </ul>
       <div className={styles.links}>
         <a href={`${demo}`} className={styles.link}>Link</a>
-        <a href={`${source}`} className={styles.link}>Repositorio</a>
+        {source?<a href={`${source}`} className={styles.link}>Repositorio</a>:""}
       </div>
     </div>
   );

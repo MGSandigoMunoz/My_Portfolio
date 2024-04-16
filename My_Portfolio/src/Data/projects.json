@@ -1,34 +1,17 @@
 [
     {
         "title":"Pets Vital",
-        "imageSrc":"",
-        "description":"En este proyecto me desempeñé principalmente como backend",
-        "skills":["Node JS"],
+        "imageSrc":"Projects/petsVital.png",
+        "description":"En este proyecto me desempeñé como fullstack",
+        "skills":["TypeScript","NodeJS","NestJS","React"],
         "demo":"link del deploy",
         "source":"link de github"
     },
     {
         "title":"LinkIT",
-        "imageSrc":"",
+        "imageSrc":"Projects/linkIT.png",
         "description":"En este proyecto me desempeñé principalmente como backend",
-        "skills":["Node JS","MongoDB","Mongoose",""],
-        "demo":"link del deploy",
-        "source":"link de github"
-    },
-    {
-        "title":"Countries",
-        "imageSrc":"",
-        "description":"En este proyecto me desempeñé principalmente como backend",
-        "skills":["Node JS"],
-        "demo":"link del deploy",
-        "source":"link de github"
-    },
-    {
-        "title":"Rick & Morty",
-        "imageSrc":"",
-        "description":"En este proyecto me desempeñé principalmente como backend",
-        "skills":["Node JS"],
-        "demo":"link del deploy",
-        "source":"link de github"
+        "skills":["Node JS","MongoDB","Mongoose","Firebase"],
+        "demo":"https://www.linkit-hr.com/"
     }
 ]
