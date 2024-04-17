@@ -2,15 +2,16 @@
     {
         "title":"PetsVital",
         "imageSrc":"Projects/petsVital.png",
-        "description":"This project consists of an application that allows users to manage the care of their pets. Currently my team and I are working on mobile and web design planning and we finished the low-fidelity and high-fidelity prototypes. I nivite to know more about this project in my linkedIN, where we upload project updates every week.  ",
-        "skills":["Figma", "Excalidraw"]
+        "description":"This project consists of an application that allows users to manage the care of their pets. Currently my team and I are working on mobile and web design planning and we finished the low-fidelity and high-fidelity prototypes. I inivite  you to know more about this project in my linkedin, where we upload project updates every week.  ",
+        "skills":["Figma", "Excalidraw", "SCRUM"],
+        "demo":"https://www.linkedin.com/in/maria-gabriela-sandigo-munoz/"
        
     },
     {
         "title":"LinkIT",
         "imageSrc":"Projects/linkIT.png",
-        "description":"En este proyecto me desempeñé principalmente como backend",
-        "skills":["Node JS","MongoDB","Mongoose","Firebase"],
+        "description":"This website was created for the argentinian recruitment agency LinkIT. I used SCRUM methodology for project planning and git flow. I also used DDD architecture for the backend structure. Implementation of TypeScript for CRUD development, together with Express and Node.js. Connections for third party authentication with Firebase and MongoDB non-relational database management and connection with Mongoose. For the frontend, I use ReactJS",
+        "skills":["Typescript","MongoDB","Express","ReactJS","Node JS","Mongoose","Firebase","SCRUM", "Git flow"],
         "demo":"https://www.linkit-hr.com/"
     }
 ]
