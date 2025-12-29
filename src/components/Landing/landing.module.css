@@ -5,7 +5,7 @@
     position: relative;
     align-items: center;
     justify-content: space-between;
-    margin: top 49px;
+    margin-top:50px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -19,27 +19,27 @@
     z-index: 1;
 }
 
-.title{
-    font-size: 72px;
-    font-weight: 500;
+.title {
+    font-size: clamp(2rem, 2vw, 3.125rem);
+    font-weight: 400;
     font-family: var(--font-nunito);  
-    z-index: 1
+    z-index: 1;
 }
 
-.description1{
-   font-size: 50px; 
-   font-family: var(--font-nunito);
-   z-index: 1
+.description1 {
+    font-size: clamp(2rem, 2vw, 3.125rem); 
+    font-family: var(--font-nunito);
+    z-index: 1;
 }
 
-.description2{
-    font-size: 100px; 
+.description2 {
+    font-size: clamp(3rem, 4vw, 6.25rem);
     font-family: var(--font-caveat);
-    z-index: 1
- }
+    z-index: 1;
+}
 
 .grullaImg{
-    width: 50%;
+    width: 40%;
     z-index: 1;
     justify-content: right;
 
@@ -64,27 +64,27 @@
 
 .topBlur{
  position: absolute;
- width: 50vw;
+ width: 60vw;
  height: 50vw;
  min-width: 350px;
  min-height: 350px;
  top: -128px;
  left:-10vw;
  border-radius: 760px;
- background: rgb(255, 203, 203,0.9);
+ background: rgba(131, 13, 131, 0.76);
  filter:blur(100px);
  z-index: 0;
 }
 .bottonBlur{
  position: absolute;
- width: 70vw;
- height: 50vw;
+ width: 80vw;
+ height: 90vw;
  min-width: 350px;
  min-height: 250px;
  top: 246px;
  right:-25vw;
  border-radius: 764px;
- background: rgb(255, 203, 203,0.9);
+ background: rgba(221, 170, 217, 0.705);
  filter:blur(100px);
  z-index: 0;      
 }

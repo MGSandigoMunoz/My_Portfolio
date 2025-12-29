@@ -1,10 +1,10 @@
 :root {
     /*Colors*/
-    --color-text: #070F2B;
-    --color-bg: #5d94e1bc;
-    --color-primary:#d9d7f1;
+    --color-text: #b1b9d3ea;
+    --color-bg: #000000;
+    --color-primary:#b1b9d3ea;
     --color-secondary: #2ee9e2;
-    --color-tertiary: #9d79f391;
+    --color-tertiary: #3b0da991;
 
     /*Fonts*/
     --font-nunito: 'Nunito Variable', sans-serif;

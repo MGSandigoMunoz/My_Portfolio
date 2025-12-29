@@ -5,10 +5,10 @@ export const AboutMe = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h2 className={styles.title}>
-          <span className={styles.icon}>🌱</span> About Me
+           About Me <span>🌱</span>
         </h2>
-
-        <p className={styles.description2}>
+        <br />
+        <p className={styles.description1}>
           I am a passionate{" "}
           <strong>Fullstack Software Developer from Colombia</strong>, with a
           strong focus on backend development and system architecture. I have
